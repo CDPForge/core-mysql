@@ -29,7 +29,6 @@ CREATE TABLE `plugins` (
   `name` VARCHAR(100) NOT NULL,
   `type` VARCHAR(20) NOT NULL,
   `priority` INT NOT NULL,
-  `callback_url` VARCHAR(255) NOT NULL,
   `input_topic` VARCHAR(100) NOT NULL,
   `output_topic` VARCHAR(100) DEFAULT NULL,
   `createdAt` DATETIME NOT NULL DEFAULT NOW(),
