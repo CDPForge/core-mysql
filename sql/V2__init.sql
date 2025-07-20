@@ -1,6 +1,6 @@
 CREATE TABLE `settings` (
   `id` int NOT NULL AUTO_INCREMENT,
-  `client` int NOT NULL,
+  `client` int DEFAULT NULL,
   `field` varchar(12) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NOT NULL,
   `value` text NOT NULL,
   PRIMARY KEY (`id`),
